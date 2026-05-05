@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Navbar({ view, setView }) {
+export default function Navbar({ view, setView, onLogJobClick }) {
   const navigationMenuList = [
     { id: 'dashboard', label: 'Dashboard' },
     { id: 'jobs', label: 'Jobs' },
@@ -34,6 +34,7 @@ export default function Navbar({ view, setView }) {
       
       <div>
         <button 
+          onClick={onLogJobClick}
           className="bg-white text-black hover:bg-gray-200 font-medium px-4 py-2 rounded-lg transition-colors duration-200"
         >
           + Log a Job
