@@ -5,7 +5,7 @@ JobLens is a small full-stack app for tracking job applications in one place. Yo
 ---
 ## Live Demo
 
-https://your-vercel-url.vercel.app
+https://job-lens-swart.vercel.app/
 ---
 ## Features
 
