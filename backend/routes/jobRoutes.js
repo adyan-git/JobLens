@@ -1,10 +1,12 @@
 const express = require('express');
-const { addJob, getJobs } = require('../controllers/jobController');
+const { addJob, getJobs, addNoteToJobThing } = require('../controllers/jobController');
+const { authMiddleware } = require('../middleware/authMiddleware');
 
 const router = express.Router();
 
-router.post('/', addJob);
-router.get('/', getJobs);
+router.post('/', authMiddleware, addJob);
+router.get('/', authMiddleware, getJobs);
+router.put('/:id/notes', authMiddleware, addNoteToJobThing);
 
 module.exports = router;
 
