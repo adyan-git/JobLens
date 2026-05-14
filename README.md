@@ -3,7 +3,10 @@
 JobLens is a small full-stack app for tracking job applications in one place. You log roles and companies, jot notes as things move along, and get a few simple, rule-based insights from your own data (nothing fancy or “AI” here—just counts and thresholds). Accounts are per user, so your list stays yours.
 
 ---
+## Live Demo
 
+https://your-vercel-url.vercel.app
+---
 ## Features
 
 - **Sign up / sign in** with email and password  
@@ -120,8 +123,7 @@ Vite usually serves the app at **http://localhost:5173**. The backend CORS setup
 Ideas I’d tackle next if I kept building this out:
 
 - Edit and delete jobs (right now you add and update through notes / status on the card flow, but there’s no full “edit job” API)  
-- Simple charts (applications over time, funnel by status)  
-- Email-based password reset  
+- Simple charts (applications over time, funnel by status)    
 - Richer analytics (sources, response times, custom tags)  
 
 ---
