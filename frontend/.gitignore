@@ -12,12 +12,9 @@ dist
 dist-ssr
 *.local
 
-# Secrets (never commit)
 .env
 .env.*
 !.env.example
-!backend/.env.example
-!frontend/.env.example
 
 # Editor directories and files
 .vscode/*
