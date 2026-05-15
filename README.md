@@ -95,29 +95,37 @@ Vite usually serves the app at **http://localhost:5173**. The backend CORS setup
 | `FRONTEND_URL` | In **production** (`NODE_ENV=production`), browsers are only allowed from this origin (e.g. `https://your-site.net`). In development, `http://localhost` / `http://127.0.0.1` on any port are allowed; if `FRONTEND_URL` is unset in dev, other origins are allowed too so local setups stay easy. |
 
 ---
+## 📸 Screenshots
 
-## Screenshots
+### Dashboard Overview
+Track applications, interviews, rejections, and recent activity.
 
-*(Drop images into your repo or host them and link below.)*
+![Dashboard](./screenshots/joblens-dashboard.png)
 
-### Dashboard
+### Authentication
+Secure login and signup with JWT authentication.
 
-<!-- ![Dashboard](docs/screenshots/dashboard.png) -->
+![Authentication](./screenshots/login,signup page.png)
+
+### Job Tracking & Filters
+Manage jobs with role and status filters.
+
+![Jobs](./screenshots/jobs page with filter.png)
+
+### Log a Job
+Add company, role, status, tech stack, interview dates, and notes.
+
+![Log Job](./screenshots/Log A Job form.png)
 
 ### Insights
+View simple job application insights and patterns.
 
-<!-- ![Insights](docs/screenshots/insights.png) -->
+![Insights](./screenshots/insights.png)
 
-### Notes
+### Notes Panel
+Save reminders, interview feedback, and follow-up notes.
 
-<!-- ![Notes](docs/screenshots/notes.png) -->
-
-### Login
-
-<!-- ![Login](docs/screenshots/login.png) -->
-
----
-
+![Notes](./screenshots/view-notes.png)
 ## Future improvements
 
 Ideas I’d tackle next if I kept building this out:
