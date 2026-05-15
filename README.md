@@ -7,6 +7,14 @@ JobLens is a small full-stack app for tracking job applications in one place. Yo
 
 https://job-lens-swart.vercel.app/
 ---
+## 💡 Why “JobLens”?
+
+I chose the name **JobLens** because the platform helps users look at their job applications through a different perspective.
+
+Instead of only storing applications, JobLens acts like a **lens** to track progress, spot patterns, and reflect on the job search journey through notes and lightweight insights.
+
+The idea is simple: job tracking should not just be about logging applications — it should help users understand and improve their approach over time.
+---
 ## Features
 
 - **Sign up / sign in** with email and password  
@@ -97,33 +105,59 @@ Vite usually serves the app at **http://localhost:5173**. The backend CORS setup
 ---
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
 ### Dashboard Overview
-Track applications, interviews, rejections, and recent activity.
+Track total applications, interviews, offers, rejections, and recent activity in one place.
 
 ![Dashboard](./screenshots/joblens-dashboard.png)
 
-### Authentication
-Secure login and signup with JWT authentication.
+---
 
-![Authentication](./screenshots/login,signup page.png)
+### Authentication
+Secure login and signup with JWT authentication so every user sees only their own job logs and notes.
+
+![Authentication](./screenshots/login.png)
+
+---
 
 ### Job Tracking & Filters
-Manage jobs with role and status filters.
+Manage applications with role and status-based filtering to quickly find opportunities.
 
-![Jobs](./screenshots/jobs page with filter.png)
+![Jobs](./screenshots/jobs.png)
+
+---
+
+### Filter by Role
+Filter applications dynamically by role. New roles are automatically added without duplicates, and role matching is case-insensitive.
+
+![Role Filter](./screenshots/role-filter.png)
+
+---
 
 ### Log a Job
-Add company, role, status, tech stack, interview dates, and notes.
+Add company name, role, status, tech stack, job link, notes, and interview details while tracking applications.
 
-![Log Job](./screenshots/Log A Job form.png)
+![Log Job](./screenshots/Log-job.png)
+
+---
+
+### Interview Tracking
+If you have an upcoming interview, simply add the interview date, job link, preparation notes, reminders, or follow-up details to stay organized.
+
+![Interview Date](./screenshots/interview-date.jpeg)
+
+---
 
 ### Insights
-View simple job application insights and patterns.
+View lightweight job application insights and patterns based on your logged jobs, interview rates, rejection trends, and role-based patterns.
 
 ![Insights](./screenshots/insights.png)
 
+---
+
 ### Notes Panel
-Save reminders, interview feedback, and follow-up notes.
+Store follow-up reminders, interview feedback, salary discussions, preparation notes, or anything important for a job.
 
 ![Notes](./screenshots/view-notes.png)
 ## Future improvements
