@@ -105,8 +105,6 @@ Vite usually serves the app at **http://localhost:5173**. The backend CORS setup
 ---
 ## 📸 Screenshots
 
-## 📸 Screenshots
-
 ### Dashboard Overview
 Track total applications, interviews, offers, rejections, and recent activity in one place.
 
